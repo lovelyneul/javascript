@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tteokbokki Village</title>
+    <style>
+        body{
+            background-color: #efe5d0;
+            font-family: Arial, "Trebuchet MS", sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: #e3afed;
+            color: #000000;
+            margin:0px;
+            text-align: center;
+            padding: 5px;
+        }
+        h1{
+            margin: 0px;
+        }
+        section#main{
+            float:right;
+            width:30%;
+            height:300px;
+           
+        }
+        nav{
+            float: left;
+            width:30%;
+            height:800px;
+            background-color: #ffd800;
+
+        }
+        footer{
+            background-color: #954b4b;
+            color: #efe5d0;
+            text-align: center;
+            padding: 10px;
+            margin: 0px 0px 0px 0px;
+            font-size: 90%;
+            clear: both;
+        }
+
+        ul.a{list-style-type: circle;}
+
+        
+        @keyframes bounce{
+            from,
+            to{
+                bottom:0px;
+                animation-timing-function: ease-out;
+            }
+            50%{
+                bottom: 200px;
+                animation-timing-function: ease-in;
+            }
+        }
+            #ball{
+               position: absolute;
+               width: 50px;
+               height: 50px;
+               background: red;
+               border-radius: 50px;
+               animation-name: bounce;
+               animation-iteration-count: infinite;
+               animation-duration: 5s;
+            }
+        
+    </style>
+    
+    <script type="text/javascript">
+        var myVar = "hello";
+        function exampleFunction() { alert('떡볶이 마을에 온걸 환영해!'); }
+      </script>
+</head>
+<body>
+ 
+        <p><a href="#" onClick="exampleFunction()">눌러보세요!</a></p>
+     
+     
+
+  
+        <header><h1>떡볶이 마을<img src="gm-tteokbokki-main.jpg" width="60" height="60" /><a href="1.html">
+            </a></h1></Header>
+    <nav>
+       
+    <br><h2><ul class="a"></ul>떡볶이란</h2>
+    <ol>
+    <li><a href="1.html">떡볶이의 역사</a></li>
+    <li><a href="2.html">떡볶이 조리법</a></li>
+    </ol>
+  
+    <br><h2>떡볶이 레시피</h2>
+    <ol>
+        <li>고추장 떡볶이</a></li>
+        <li><a href="다운로드 (2).jpeg" >로제 떡볶이</a></li>
+        <li>투움바 떡볶이</li>
+    </ol>
+
+    <br><h2>떡볶이로 3행시</h2>
+    <ol>
+        <li>떡으로</li>
+        <li>볶아서</li>
+        <li>요래먹자</li>
+    </ol>
+   
+
+   </nav>   
+
+ <section  id="main">
+    <article>
+        <br>
+        <br>
+   <h2>이달의 떡볶이</h2>
+   
+   <img src="다운로드 (1).jpeg" width="600" height="300" />
+    </article>
+    
+ </section>
+
+ <footer>
+    <h2>국내 떡볶이 맛집 추천</h2>
+  <form name="input" action="getfeedback.jsp" method="get">
+    닉네임:<input type="text" name="name"><br>
+    패스워드:<input type="password" name="pass"><br>
+    맛집을 맘껏 추천해주세요.<br />
+    <textarea name="feedback" rows="5" cols="50"> </textarea><br>
+        <input type="submit" name="submit" value="제출"/>
+        <input type="reset" name="reset" value="초기화"/>
+        
+        
+    
+  </form>
+
+
+
+
+
+
+ </footer>
+    <body style="background-color: white;">
+        <h1 style="background-color: goldenrod;"></h1>
+
+
+
+    
+    </script>
+      
+   <div id="ball"></div>
+</body>
+</html>
